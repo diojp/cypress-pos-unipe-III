@@ -1,7 +1,7 @@
 {
   "name": "cypress-pos-unipe-iii",
   "version": "1.0.0",
-  "description": "Projeto de Testes - Pós Unipê",
+  "description": "Projeto de Testes - Pos Unipe",
   "main": "index.js",
   "scripts": {
     "test": "cypress run"
