@@ -38,7 +38,7 @@ describe("Testes de Front", () => {
         cy.get(".success").should("have.text", "Ticket(s) successfully ordered.");;
     })
 
-    it.only("TC03 - Compra de Ingressos Full Otimizada", () => {
+    it("TC03 - Compra de Ingressos Full Otimizada", () => {
        cy.fillMandatoryFields();
         cy.get(".success").should("be.visible");
         cy.get(".success").should("have.text", "Ticket(s) successfully ordered.");;
